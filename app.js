@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const blog = require('./models/blog');
 
 //database connection
-const dbURI = 'mongodb+srv://Bartosz:Test123@node.q7zpfwt.mongodb.net/Node_tuts?retryWrites=true&w=majority&appName=Node';
+const dbURI = 'mongodb+srv://Bartosz:MagiczneHaslo2137@node.q7zpfwt.mongodb.net/Node_tuts?retryWrites=true&w=majority&appName=Node';
 mongoose.connect(dbURI, {})
     .then((result) => app.listen(3000))
     .catch((err) => console.log(err));
